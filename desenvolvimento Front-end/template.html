@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/style.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Template</title>
+</head>
+<body onresize="mudouTamanho()"><!--Redimenciona-->
+  <header>
+    <h1>My Site</h1>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickenu()">
+      menu
+      </span>
+    <menu id="item">
+      <ul>
+        <li>
+          <a href="#">Opção1</a>
+        </li>
+        <li>
+          <a href="#">Opção2</a>
+        </li>
+        <li>
+          <a href="#">Opção3</a>
+        </li>
+        <li>
+          <a href="#">Opção4</a>
+        </li>
+        <li>
+          <a href="#">Opção5</a>
+        </li>
+      </ul>
+    </menu>
+  </header>
+  
+  <main>
+    <article>
+      <h2>Lorem Ipsum</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Officia adipisci omnis ratione deserunt, ab eligendi! 
+        Est pariatur, tempora aliquam laudantium reiciendis maxime 
+        unde harum perferendis iure cum cupiditate asperiores. Minus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad adipisci 
+        facere ipsum culpa soluta neque delectus dolor consequatur dicta 
+        distinctio eum laboriosam laudantium molestias accusamus, commodi 
+        maxime obcaecati fugiat sequi!
+        Quidem dolorem magni perspiciatis, consequuntur libero odio doloremque 
+        dolore sunt mollitia ipsam. Deleniti, ab atque? Quisquam voluptate qui 
+        corrupti quaerat culpa numquam minima exercitationem quidem sequi nostrum 
+        minus, aliquam quos.
+        Quia ullam mollitia molestias nobis velit, ut, architecto possimus sit 
+        officia aut, repellat quae labore dicta quos suscipit. Quae voluptatibus 
+        quis totam modi suscipit ex dolorem nobis possimus fuga officiis.
+        Recusandae dignissimos dolorum repellendus qui voluptas quo corporis nisi 
+        mpedit incidunt magnam totam illum provident dolores voluptatibus eligendi 
+        laborum minus soluta ut temporibus tenetur assumenda, odit mollitia! Tempora, 
+        at assumenda!
+        Dignissimos vero, alias officiis laudantium delectus veniam consequatur 
+        placeat possimus libero blanditiis vel corporis eos deserunt impedit error 
+        non vitae exercitationem nemo dolore a repellendus doloribus illo tenetur dolores. 
+        Ex!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae mollitia 
+          ipsa explicabo ut sint laborum maxime nostrum, itaque commodi 
+          cumque qui? Molestiae similique recusandae doloremque quae veritatis, 
+          incidunt dolor exercitationem!
+        Laborum amet praesentium accusamus enim pariatur blanditiis, iure tenetur 
+        necessitatibus ratione. Fuga consequuntur, aspernatur reiciendis inventore 
+        nisi quis pariatur id illo minus dolore officia sed quibusdam explicabo unde 
+        odio sunt.
+        Laboriosam ducimus laudantium iusto eveniet repudiandae porro dolorem odit odio 
+        similique, est necessitatibus consequuntur explicabo, sint quis unde possimus quo 
+        aperiam sit quibusdam inventore voluptas voluptatum aut velit. Saepe, commodi?
+        Numquam placeat culpa iste perspiciatis distinctio amet delectus reprehenderit quos, 
+        eligendi corporis rem, magni blanditiis expedita impedit! Id reiciendis omnis debitis 
+        possimus incidunt quae amet aperiam, ea deleniti, quo iste.
+        Tenetur esse itaque laborum voluptates est! Repellendus cum fugiat consequuntur 
+        voluptatem quo enim eos, dicta ratione quasi. Illo dolore debitis natus nisi 
+        praesentium voluptatibus enim iusto, numquam eius! Accusantium, voluptas.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem suscipit 
+          porro deserunt eum consequuntur dolores molestias officia ipsam ut? 
+          Doloribus, sequi similique quaerat voluptatem molestiae soluta molestias 
+          magnam exercitationem velit!
+        Perspiciatis aspernatur expedita libero aliquid, quis accusamus pariatur, 
+        laudantium ratione veritatis, laborum iusto asperiores. Itaque cum sint 
+        praesentium deleniti doloremque aliquid officiis consequatur. Quia ducimus, 
+        quod voluptatum repellendus debitis delectus?
+        Ipsam, magni vitae delectus fugit id reprehenderit neque explicabo, beatae 
+        quisquam veritatis pariatur eveniet dolore inventore molestiae doloremque 
+        rerum repellat dolores deleniti unde! Impedit laborum quam dolores nihil 
+        asperiores amet.
+        Magnam saepe atque recusandae possimus quidem delectus sit cum corporis 
+        non amet porro eum ratione, explicabo fugit tempore. Fugit temporibus 
+        explicabo sunt aperiam enim officia optio velit dolorum illum beatae!
+        Modi, maiores necessitatibus hic deleniti impedit et? In ea dignissimos 
+        maiores. Veritatis distinctio, adipisci quidem quam sapiente nihil vitae 
+        at dolore. Itaque odio ratione, nam suscipit impedit ducimus neque voluptate!</p>
+    </article>
+
+    <script>
+      function mudouTamanho(){
+  if(window.innerWidth >= 768){
+    item.style.display = "block";
+  }else{
+    item.style.display = "none";
+  }
+}
+
+function clickmenu(){
+  if(item.style.display == "block"){
+    item.style.display = "none";
+  }else{
+    item.style.display = "block";
+  }
+}
+    </script>
+  </main>
+</body>
+</html>
